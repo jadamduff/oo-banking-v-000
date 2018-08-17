@@ -21,5 +21,4 @@ class BankAccount
     false
   end
 
-  d
 end
