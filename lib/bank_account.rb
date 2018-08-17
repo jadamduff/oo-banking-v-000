@@ -24,5 +24,4 @@ class BankAccount
     end
   end
 
-  d
 end
