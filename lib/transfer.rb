@@ -9,7 +9,7 @@ class Transfer
   end
 
   def valid?
-    if self.sender.valid? && self.receiver.valid?
+    if (self.sender.valid? && self.sender.balance >= self.amount) && self.receiver.valid?
       true
     else
       false
